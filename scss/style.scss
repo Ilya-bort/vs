@@ -1,0 +1,29 @@
+@import "_header";
+body {
+	font-size: 50px;
+	background-color: #000;
+	color: #aaa;
+	& div {
+	}
+}
+.block {
+	// .block__body
+
+	&__body {
+	}
+
+	// .block__title
+
+	&__title {
+	}
+}
+.title {
+	// .title__content
+
+	&__content {
+		color: red;
+	}
+}
+.title__content {
+	color: red;
+}
